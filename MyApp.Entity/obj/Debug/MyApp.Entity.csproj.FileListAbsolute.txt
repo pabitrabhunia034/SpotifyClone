@@ -1,0 +1,6 @@
+C:\Users\Pabitra Bhunia\source\repos\Spotify\MyApp.Entity\bin\Debug\MyApp.Entity.dll
+C:\Users\Pabitra Bhunia\source\repos\Spotify\MyApp.Entity\bin\Debug\MyApp.Entity.pdb
+C:\Users\Pabitra Bhunia\source\repos\Spotify\MyApp.Entity\obj\Debug\MyApp.Entity.csproj.AssemblyReference.cache
+C:\Users\Pabitra Bhunia\source\repos\Spotify\MyApp.Entity\obj\Debug\MyApp.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Pabitra Bhunia\source\repos\Spotify\MyApp.Entity\obj\Debug\MyApp.Entity.dll
+C:\Users\Pabitra Bhunia\source\repos\Spotify\MyApp.Entity\obj\Debug\MyApp.Entity.pdb

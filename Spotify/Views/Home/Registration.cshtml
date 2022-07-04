@@ -1,0 +1,50 @@
+﻿<div class="row pt-2">
+    <div class="col-lg-6 offset-lg-3 my-5 border p-5">
+        <h3 class="text-center">USER REGISTRATION</h3>
+
+        <form id="frm" class="mt-5" action="@Url.Action("userRegistration",null,new { Controller="Home"}, Request.Url.Scheme)" method="post" enctype="multipart/form-data">
+            <div class="form-group row">
+                <label for="name" class="col-sm-3 col-form-label">NAME</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Enter Name...">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="address" class="col-sm-3 col-form-label">ADDRESS</label>
+                <div class="col-sm-9">
+                    <textarea class="form-control" id="address" name="address" placeholder="Enter Address..." rows="2"></textarea>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="userName" class="col-sm-3 col-form-label">USER NAME</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" id="userName" name="userName" placeholder="Enter User Name...">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="password" class="col-sm-3 col-form-label">PASSWORD</label>
+                <div class="col-sm-9">
+                    <input type="password" class="form-control" id="password" name="pass" placeholder="Enter Password...">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="userRole" class="col-sm-3 col-form-label">Role</label>
+                <div class="col-sm-9">
+                    <select class="form-control" id="userRole" name="userRole">
+                        <option value="Select Role">Select Role</option>
+                        <option value="A">Admin</option>
+                        <option value="U">User</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center mt-3">
+                    <button type="button" id="save" class="btn btn-primary">Save</button>
+                    <button type="reset" class="btn btn-warning mx-3">REFRESH</button>
+
+                </div>
+            </div>
+        </form>
+
+    </div>
+</div>
